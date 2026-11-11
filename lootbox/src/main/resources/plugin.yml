@@ -1,0 +1,15 @@
+name: LootBoxHoraire
+version: 1.0.0
+main: fr.falix.lootbox.LootBoxPlugin
+api-version: '26.3'
+author: ChatGPT
+description: Une LootBox gratuite récupérable toutes les heures.
+commands:
+  lootbox:
+    description: Récupère ta LootBox horaire.
+    usage: /lootbox
+    aliases: [lb]
+permissions:
+  lootbox.admin:
+    description: Permet de réinitialiser le cooldown d'un joueur.
+    default: op
