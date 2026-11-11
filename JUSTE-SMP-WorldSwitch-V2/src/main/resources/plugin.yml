@@ -1,0 +1,16 @@
+name: JUSTE-SMP-WorldSwitch
+version: 2.0.0
+main: fr.justesmp.worldswitch.WorldSwitch
+api-version: '1.21'
+commands:
+  setlobby:
+    description: Définit le point d'arrivée du Lobby
+  setsurvie:
+    description: Définit le point d'arrivée de Survie
+  lobby:
+    description: Téléporte au Lobby
+  survie:
+    description: Téléporte en Survie
+permissions:
+  justesmp.worldswitch.set:
+    default: op
