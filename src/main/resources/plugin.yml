@@ -1,27 +1,6 @@
-name: JUSTE-SMP-Economy
-version: 4.0.0
-main: fr.justesmp.economy.EconomyPlugin
-api-version: '26.3'
+name: JUSTE-SMP-LobbyProtection
+version: 1.0.0
+main: fr.justesmp.lobbyprotection.LobbyProtection
+api-version: '1.21'
+description: Bloque les dégâts et la faim uniquement dans le monde Lobby.
 author: JUSTE-SMP
-commands:
-  solde:
-    description: Affiche ton solde
-    usage: /solde
-  pay:
-    description: Transfère de l'argent à un joueur
-    usage: /pay <joueur> <montant>
-  baltop:
-    description: Classement des fortunes
-    usage: /baltop
-  shop:
-    description: Ouvre le shop
-    usage: /shop
-  sell:
-    description: Ouvre le coffre de vente
-    usage: /sell
-  change:
-    description: Gestion des prix
-    usage: /change prix <shop|sell> <materiau> <prix>
-permissions:
-  justesmp.admin:
-    default: op
